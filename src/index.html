@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>REST Services | Angular Car Dealer</title>
+</head>
+<body>
+  <h1>Angular Car Dealer - REST Services</h1>
+
+  <table border>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Description</th>
+        <th>Method</th>
+        <th>URL</th>
+        <th>Parameters (if any)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>All Customers</td>
+        <td>GET</td>
+        <td>
+          <pre>/api/customers</pre>
+        </td>
+        <td>&lt;None&gt;</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>One Customer</td>
+        <td>GET</td>
+        <td>
+          <pre>/api/customer/:id</pre>
+        </td>
+        <td>
+          <ol>
+            <li>
+              <strong>id:</strong>
+              The customer's identifier
+            </li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>All Cars</td>
+        <td>GET</td>
+        <td>
+          <pre>/api/cars</pre>
+        </td>
+        <td>&lt;None&gt;</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>One Car</td>
+        <td>GET</td>
+        <td>
+          <pre>/api/car/:id</pre>
+        </td>
+        <td>
+          <ol>
+            <li>
+              <strong>id:</strong>
+              The car's identifier
+            </li>
+          </ol>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

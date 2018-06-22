@@ -9,6 +9,10 @@ const cars        = JSON.parse(fs.readFileSync('mock/cars.json', 'utf-8'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+app.get('/api', (req, res) => {
+  res.sendFile(__dirname + '/src/index.html');
+});
+
 app.get('/api/customers', (req, res) => {
   res.json(customers);
 });
