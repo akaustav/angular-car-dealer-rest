@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/akaustav/angular-car-dealer-rest/issues"
   },
-  "homepage": "https://github.com/akaustav/angular-car-dealer-rest#readme"
+  "homepage": "https://github.com/akaustav/angular-car-dealer-rest#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
