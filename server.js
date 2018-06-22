@@ -13,8 +13,32 @@ app.get('/api/customers', (req, res) => {
   res.json(customers);
 });
 
+app.get('/api/customer/:id', (req, res) => {
+  const customerId = +req.params.id;
+  let selectedCustomer = {};
+  for (let customer of customers) {
+    if (customer.id === customerId) {
+      selectedCustomer = customer;
+      break;
+    }
+  }
+  res.json(selectedCustomer);
+});
+
 app.get('/api/cars', (req, res) => {
   res.json(cars);
+});
+
+app.get('/api/car/:id', (req, res) => {
+  const carId = +req.params.id;
+  let selectedCar = {};
+  for (let car of cars) {
+    if (car.id === carId) {
+      selectedCar = car;
+      break;
+    }
+  }
+  res.json(selectedCar);
 });
 
 app.listen(3000);
