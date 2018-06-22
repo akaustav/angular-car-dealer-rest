@@ -1,13 +1,13 @@
 [
   {
-    "id": 101,
+    "vin": 101,
     "name": "Ameet's Toyota Yaris",
     "make": "Toyota",
     "model": "Yaris",
     "year": 2010
   },
   {
-    "id": 102,
+    "vin": 102,
     "name": "Shweta's Honda Civic",
     "make": "Honda",
     "model": "Civic",

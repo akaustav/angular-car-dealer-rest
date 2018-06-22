@@ -29,11 +29,11 @@ app.get('/api/cars', (req, res) => {
   res.json(cars);
 });
 
-app.get('/api/car/:id', (req, res) => {
-  const carId = +req.params.id;
+app.get('/api/car/:vin', (req, res) => {
+  const carVin = +req.params.vin;
   let selectedCar = {};
   for (let car of cars) {
-    if (car.id === carId) {
+    if (car.vin === carVin) {
       selectedCar = car;
       break;
     }
