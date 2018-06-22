@@ -1,7 +1,7 @@
 {
   "name": "@akaustav/angular-car-dealer-rest",
   "version": "1.0.0",
-  "description": "REST Services Written in Express for angular-car-dealer-ui",
+  "description": "REST Services for angular-car-dealer-ui written in ExpressJS.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",

@@ -1,6 +1,6 @@
 # Angular Car Dealer - Rest Services
 
-This is the REST Service written in ExpressJS for [angular-car-dealer-ui](https://github.com/akaustav/angular-car-dealer-ui)
+REST Services for [angular-car-dealer-ui](https://github.com/akaustav/angular-car-dealer-ui) written in ExpressJS.
 
 ## Pre-requisites
 
